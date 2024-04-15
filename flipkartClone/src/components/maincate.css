@@ -1,0 +1,22 @@
+#griddata{
+    width: 80%;
+    
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+}
+#griddata>div{
+    height: auto;
+    width: auto;
+    border: 1px solid pink;
+}
+#griddata>div>img{
+    width: 80%;
+}
+.category{
+   
+    text-align: center;
+  
+}
