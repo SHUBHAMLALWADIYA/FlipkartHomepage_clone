@@ -9,8 +9,7 @@
 }
 #griddata>div{
     height: auto;
-    width: auto;
-    
+    width: auto; 
 }
 #griddata>div>img{
     width: 80%;

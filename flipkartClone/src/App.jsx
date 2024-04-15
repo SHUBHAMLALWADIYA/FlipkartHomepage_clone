@@ -5,12 +5,8 @@ import Navbar from './components/Navbar'
 import SliderComponent from './components/SliderComponent'
 import MainCategoryMenu from './components/MainCategoryMenu'
 
-
-
-
 function App() {
  
-
   return (
     <>
       <Navbar/>
@@ -19,5 +15,4 @@ function App() {
     </>
   )
 }
-
 export default App
