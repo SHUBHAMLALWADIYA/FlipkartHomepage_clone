@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar'
 import SliderComponent from './components/SliderComponent'
 import MainCategoryMenu from './components/MainCategoryMenu'
+import MobileSlider from './components/MobileSlider'
 
 function App() {
  
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <MainCategoryMenu/>
       <SliderComponent/>
+      <MobileSlider/>
     </>
   )
 }

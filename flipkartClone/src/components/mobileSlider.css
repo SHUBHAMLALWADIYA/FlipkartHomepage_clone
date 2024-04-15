@@ -1,0 +1,71 @@
+/* mobileSlider.css */
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  height: 200px; /* Set a fixed height for the slider container */
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%; /* Ensure the slider occupies the full height of the container */
+}
+
+.slide {
+  flex: 0 0 calc(100% / 6); /* Adjust the width to fit 6 slides */
+  max-width: calc(100% / 6); /* Set maximum width for responsiveness */
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  border-radius: 5px; /* Add border radius */
+}
+
+.image {
+  width: 100%;
+  height: 100%; /* Ensure images occupy full height of slides */
+  object-fit: contain; /* Adjusted to contain */
+  border-radius: 5px;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #525354; /* Change background color */
+  color: #fff; /* Change text color */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 1;
+  padding: 5px 5px; /* Decrease padding for smaller buttons */
+  font-size: 18px; /* Keep font size */
+  border-radius: 5px; /* Add border radius */
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: #0d47a1; /* Darken background color on hover */
+}
+#phoneslider{
+  
+ width: 90%;
+  display: flex;
+  margin: auto;
+}
+.plane{
+  width: 15%;
+}
+.best{
+  font-size: 30px;
+  margin-left:80px ;
+}
